@@ -9,32 +9,63 @@
 ---
 
 ## Problem Statement
-Write in 2–3 lines what problem your project solves.  
-Example: "Students often forget their daily timetable. This project shows today's timetable in one click."
-
+NeuroHarmony bridges the gap between mental states and music by translating brain signals into music or soundscapes.
 ---
 
 ## Features
-List the main things your project can do.  
-Example:  
-- Show today's timetable  
-- Remind with notifications  
-- Works offline 
+Real-Time Brainwave Monitoring
+Connect to EEG headsets (e.g., Muse, Emotiv) to capture brainwave data.
 
+Signal Processing
+Analyze EEG data (e.g., alpha, beta, theta waves) to determine mood, focus, or stress levels.
+
+Music Generation Engine
+Convert brainwave patterns into MIDI or audio using generative algorithms.
+
+Visualization Dashboard
+Show current brain states with real-time graphs or mood indicators.
+
+Preset Modes
+Relaxation, focus, creativity, sleep, etc., using adaptive soundscapes.
+
+History and Analytics
+Track daily mood/music correlation and brain activity trends.
+
+Custom Sound Design
+Users can select instruments, tempo, or genre preferences.
 ---
 
 ## Tech Stack
-List the tools or languages you used.  
-Example: Python, HTML, CSS, JavaScript, Arduino, etc.
+EEG/Brain Signal Interface:
 
+Hardware: Muse, Emotiv, OpenBCI
+
+API/SDK: Muse SDK, Emotiv SDK, OSC (Open Sound Control)
+
+🧪 Backend / Signal Processing:
+
+Python: For EEG data collection and signal processing
+
+Libraries: MNE, NeuroPy, numpy, scipy, pandas
+
+Music Generation:
+
+Python , javascript,typescript
+🎵 Frontend / UI:
+
+Mobile App:
+
+Android (Java)
+
+Local SQLite or cloud (Firebase, MongoDB, etc.)
 ---
 
 ## How to Run
-Explain step by step how to run your project.  
-Example:  
-1. Open the folder in VS Code.  
-2. Run `python main.py`  
-3. The program will start in offline mode.
+Explain step by step how to run your project.   
+1. Unzip the Folder  
+2. Understand Folder Structure  
+3. Install Dependencies
+4. Run the App
 
 ---
 
@@ -50,15 +81,13 @@ Add a screenshot of your project running, or copy-paste sample terminal output h
 ---
 
 ## AI Tools Used
-List any AI tools you used (if any).  
-Example: ChatGPT, GitHub Copilot, Cursor, Gemini, etc.  
-If not used, write "None".
+1.chatgpt
+2.replit
 
 ---
 
 ## Future Improvements
-Write how you would improve this project if you had more time.  
-Example: Add more features, make a better design, connect to API, etc.
+i would Add more features, make a better design, connect to API
 
 
 ---
